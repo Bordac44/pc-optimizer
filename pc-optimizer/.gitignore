@@ -1,0 +1,31 @@
+# --- PyInstaller / compilation ---
+build/
+dist/
+*.manifest
+# NB : on NE bloque PAS *.spec : PCOptimizerPro.spec est utile, on le garde.
+
+# --- Cache Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+
+# --- Environnements virtuels ---
+.venv/
+venv/
+env/
+
+# --- Données runtime générées par l'app (propres à chaque utilisateur) ---
+settings.json
+history.json
+
+# --- Exécutable compilé (il va dans les Releases, pas dans le code source) ---
+PCOptimizerPro.exe
+*.exe
+
+# --- Éditeur ---
+.vscode/
+.idea/
+
+# --- Divers Windows ---
+Thumbs.db
+desktop.ini

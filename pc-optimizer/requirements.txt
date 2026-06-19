@@ -1,0 +1,6 @@
+# Dépendances tierces réellement importées par app.py
+# (tkinter, winreg, subprocess, json, etc. font partie de la
+#  bibliothèque standard et ne sont donc pas listés ici.)
+psutil
+pystray
+Pillow
